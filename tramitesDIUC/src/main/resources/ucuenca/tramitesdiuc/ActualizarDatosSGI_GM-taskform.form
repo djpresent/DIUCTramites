@@ -1,0 +1,127 @@
+
+<form id="450817785">
+<property name="name" value="ActualizarDatosSGI_GM-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="aprobado" type="CheckBox" id="1758192772">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;aprobado (aprobado)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="aprobado"/>
+<property name="outputBinding" value="aprobado"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="miembros_id" type="InputTextLong" id="1609479113">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (miembros)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembros/id"/>
+<property name="outputBinding" value="miembros/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="2" name="miembros_lista_miembros" bag-type="ucuenca.tramitesdiuc.miembro" type="MultipleSubform" id="415297400">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;lista_miembros (miembros)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="miembros/lista_miembros"/>
+<property name="outputBinding" value="miembros/lista_miembros"/>
+<property name="defaultSubform" value="actualizarMiembro.form"/>
+<property name="previewSubform" value="actualizarMiembro.form"/>
+<property name="tableSubform" value="actualizarMiembro.form"/>
+<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="deleteItems" value="false"/>
+<property name="updateItems" value="false"/>
+<property name="visualizeItems" value="false"/>
+<property name="hideCreateItem" value="false"/>
+<property name="expanded" value="false"/>
+<property name="enableTableEnterData" value="false"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="3" name="tramite_codigo_proyecto" type="InputText" id="729217773">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;codigo_proyecto (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/codigo_proyecto"/>
+<property name="outputBinding" value="tramite/codigo_proyecto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="tramite_convocatoria" type="InputText" id="1050739959">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;convocatoria (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/convocatoria"/>
+<property name="outputBinding" value="tramite/convocatoria"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="tramite_fecha_solicitud" type="InputDate" id="2091215790">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecha_solicitud (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/fecha_solicitud"/>
+<property name="outputBinding" value="tramite/fecha_solicitud"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="6" name="tramite_id" type="InputTextLong" id="827854327">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/id"/>
+<property name="outputBinding" value="tramite/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="7" name="tramite_nro_tramite" type="InputTextInteger" id="1849383526">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nro_tramite (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/nro_tramite"/>
+<property name="outputBinding" value="tramite/nro_tramite"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="8" name="tramite_observaciones_aprobacion" type="InputText" id="755079275">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;observaciones_aprobacion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/observaciones_aprobacion"/>
+<property name="outputBinding" value="tramite/observaciones_aprobacion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="tramite_observaciones_validacion" type="InputText" id="2001511787">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;observaciones_validacion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/observaciones_validacion"/>
+<property name="outputBinding" value="tramite/observaciones_validacion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="tramite_solicitante" type="InputText" id="242741370">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;solicitante (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/solicitante"/>
+<property name="outputBinding" value="tramite/solicitante"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="tramite_telefono_contacto" type="InputText" id="519358632">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;telefono_contacto (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/telefono_contacto"/>
+<property name="outputBinding" value="tramite/telefono_contacto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="tramite_titulo_proyecto" type="InputText" id="1803311492">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;titulo_proyecto (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/titulo_proyecto"/>
+<property name="outputBinding" value="tramite/titulo_proyecto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="aprobado" name="#9BCAFA" type="basicType" outId="aprobado" value="java.lang.Boolean" id="aprobado"/>
+<dataHolder inputId="miembros" name="#FBB767" type="dataModelerEntry" outId="miembros" value="ucuenca.tramitesdiuc.miembros" id="miembros"/>
+<dataHolder inputId="tramite" name="#FF54A7" type="dataModelerEntry" outId="tramite" value="ucuenca.tramitesdiuc.tramite" id="tramite"/>
+</form>

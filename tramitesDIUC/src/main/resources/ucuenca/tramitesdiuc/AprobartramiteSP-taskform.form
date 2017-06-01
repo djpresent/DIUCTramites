@@ -1,0 +1,128 @@
+
+<form id="1556097984">
+<property name="name" value="AprobartramiteSP-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="aprobado" type="CheckBox" id="939278877">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;aprobado (aprobado)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="aprobado"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="8" name="tramite_id" type="InputTextLong" id="632726800">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/id"/>
+<property name="outputBinding" value="tramite/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="10" name="tramite_observaciones_aprobacion" type="InputText" id="1323065467">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;observaciones_aprobacion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/observaciones_aprobacion"/>
+<property name="outputBinding" value="tramite/observaciones_aprobacion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="tramite_nro_tramite" type="InputTextInteger" id="349232889">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nro_tramite (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/nro_tramite"/>
+<property name="outputBinding" value="tramite/nro_tramite"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="11" name="tramite_observaciones_validacion" type="InputText" id="1542821977">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;observaciones_validacion (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/observaciones_validacion"/>
+<property name="outputBinding" value="tramite/observaciones_validacion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="tramite_telefono_contacto" type="InputText" id="2140654363">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;telefono_contacto (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/telefono_contacto"/>
+<property name="outputBinding" value="tramite/telefono_contacto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="14" name="tramite_titulo_proyecto" type="InputText" id="680678079">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;titulo_proyecto (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/titulo_proyecto"/>
+<property name="outputBinding" value="tramite/titulo_proyecto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="tramite_fecha_solicitud" type="InputDate" id="805667307">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecha_solicitud (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/fecha_solicitud"/>
+<property name="outputBinding" value="tramite/fecha_solicitud"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="1" name="prorroga_duracion" type="InputTextInteger" id="583605830">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;duracion (prorroga)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="prorroga/duracion"/>
+<property name="outputBinding" value="prorroga/duracion"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="6" name="tramite_convocatoria" type="InputText" id="1632620640">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;convocatoria (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/convocatoria"/>
+<property name="outputBinding" value="tramite/convocatoria"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="tramite_codigo_proyecto" type="InputText" id="1016795179">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;codigo_proyecto (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/codigo_proyecto"/>
+<property name="outputBinding" value="tramite/codigo_proyecto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="tramite_solicitante" type="InputText" id="1634106290">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;solicitante (tramite)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="tramite/solicitante"/>
+<property name="outputBinding" value="tramite/solicitante"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="prorroga_justificacion" type="InputText" id="368124361">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;justificacion (prorroga)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="prorroga/justificacion"/>
+<property name="outputBinding" value="prorroga/justificacion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="prorroga_fecha_final" type="InputDate" id="2011500732">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fecha_final (prorroga)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="prorroga/fecha_final"/>
+<property name="outputBinding" value="prorroga/fecha_final"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="3" name="prorroga_id" type="InputTextLong" id="1190860933">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (prorroga)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="prorroga/id"/>
+<property name="outputBinding" value="prorroga/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="aprobado" value="java.lang.Boolean" id="aprobado"/>
+<dataHolder inputId="prorroga" name="#A7E690" type="dataModelerEntry" outId="prorroga" value="ucuenca.tramitesdiuc.prorroga" id="prorroga"/>
+<dataHolder inputId="tramite" name="#FF54A7" type="dataModelerEntry" outId="tramite" value="ucuenca.tramitesdiuc.tramite" id="tramite"/>
+</form>
